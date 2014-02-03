@@ -165,7 +165,7 @@ public class YFApi {
     // Unfortunately it is not as simple as using String.split or StringTokenizer
     // to parse the csv data from Yahoo! Finance.  This is because some fields
     // contain embedded commas (name for example)
-    public ArrayList<String> parseTokens(String quoteLine) throws IOException {
+    private ArrayList<String> parseTokens(String quoteLine) throws IOException {
         if (quoteLine == null) {
             throw new IllegalArgumentException("parseTokens cannot accept null parameter");
         }
