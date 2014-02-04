@@ -33,7 +33,7 @@ public class TestYahooFinanceAPI {
         Map<String, YFQuote> quoteMap = new HashMap<String, YFQuote>();
 
         // Note: It is no longer possible to retrieve the DOW info from 
-        // Yahoo! Finanace. The ticker is ^DJI, but Yahoo! no longer allows
+        // Yahoo! Finance. The ticker is ^DJI, but Yahoo! no longer allows
         // people to retrieve it via csv method.  If the ^DJI ticker is passed 
         // to Yahoo!, it's ignored and Yahoo! doesn't return it back in the
         // result. This is different than if you sent an invalid ticker.  Ticker 
